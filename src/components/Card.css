@@ -1,0 +1,41 @@
+.movie_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 0 0 10px 0;
+    /* box-shadow: 1px 2px 3px gray; */
+    transition: transform 0.5s ;
+    background-color: rgba(83, 78, 78, 0.353);
+    /* height: 300px; */
+}
+
+.movie_card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.movie_card img{
+    height: 80%;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+.movie_card p{
+    color: rgba(255, 255, 255, 0.843);
+    text-transform: capitalize;
+    font-size: small;
+    padding: 0 5px;
+    /* color: rgb(196, 144, 0); */
+}
+
+.movie_card h4{
+    margin:4px 0 0 0;
+    overflow: hidden;
+    padding: 0 5px;
+    /* color: rgba(255, 255, 255, 0.843); */
+    color: rgb(196, 144, 0);
+}
